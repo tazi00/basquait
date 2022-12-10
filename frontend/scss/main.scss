@@ -76,5 +76,64 @@ a {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
+    &--item {
+      &-left {
+      }
+      &-right {
+        position: relative;
+        text-align: end;
+        img {
+          &[alt="chain"] {
+            height: 200px;
+          }
+          &[alt="chain-main"] {
+            height: 300px;
+          }
+        }
+        .cc {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            &:first-child {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              z-index: -1;
+              right: 0;
+              bottom: 0;
+              transform: translate(-50%, -50%);
+            }
+            &:last-child {
+              height: 130px;
+            }
+          }
+        }
+        .c1 {
+          position: absolute;
+          img {
+            height: 100px;
+          }
+        }
+        .c2 {
+          position: absolute;
+          img {
+            height: 100px;
+          }
+        }
+        .c3 {
+          position: absolute;
+          img {
+            height: 100px;
+          }
+        }
+        .c4 {
+          position: absolute;
+          img {
+            height: 100px;
+          }
+        }
+      }
+    }
   }
 }
