@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sassed": "node-sass frontend/scss/main.scss frontend/style/style.css"
+    "sassed": "node-sass frontend/scss/main.scss frontend/style/style.css ",
+    "sassed-w": "node-sass frontend/scss/main.scss frontend/style/style.css -w"
   },
   "author": "riki",
   "license": "ISC",
